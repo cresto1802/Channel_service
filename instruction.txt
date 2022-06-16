@@ -1,0 +1,7 @@
+Перед началом работу, клонировать проект к себе и установить все библиотеки из lib.txt
+
+1) выполнить подключение к БД Postrgresql(строки в test_script с 52 по 56)
+2) создать таблицу channel_service со столбцами id(PK integer, NOT NULL), order_number(integer, NOT NULL), price_usd(money, NOT NULL),
+						date_post(date, NOT NULL), price_rub(money, NOT NULL)
+3)изменить chat_id(98 строка) на свой, получив в @getmyid_bot
+4)запустить скрипт
