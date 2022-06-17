@@ -116,7 +116,7 @@ def service():
 
 
 def main():
-    schedule.every(40).seconds.do(service)
+    schedule.every(config.timer).minutes.do(service)
 
     while True:
         schedule.run_pending()
