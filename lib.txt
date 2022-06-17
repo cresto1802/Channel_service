@@ -1,8 +1,0 @@
-os
-httplib2
-googleapiclient
-oauth2client
-pycbrf
-datetime
-psycopg2
-telebot
